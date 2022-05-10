@@ -1,0 +1,424 @@
+.body{
+background-color: black;
+font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+.body2{
+  background-color: black;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+.container{
+height:100vh;
+background-position: center, center;
+}
+
+.container25{
+height:100vh;
+}
+
+.bild1{
+  z-index:1;
+  background-image: url(../Img/gammalbild2.jpeg);
+  background-size:cover;
+  position: relative;
+}
+
+.bild2 {
+  z-index:1;
+  background-image: url(../Img/single_seater.jpeg);
+  background-size:cover;
+  position: relative;
+}
+
+.bild3 {
+  z-index:1;
+  background-image: url(../Img/oval_racing.jpeg);
+  background-size:cover;
+  position: relative;
+}
+
+.bild4 {
+  z-index:1;
+  background-image: url(../Img/dakar.jpeg);
+  background-size:cover;
+  position: relative;
+}
+
+.bild5 {
+  z-index:1;
+  background-image: url(../Img/Lemans.jpeg);
+  background-size:cover;
+  position: relative;
+}
+
+.bild6 {
+  z-index:1;
+  background-image: url(../Img/driftcar.jpeg);
+  background-size:cover;
+  position: relative;
+}
+
+.bild7 {
+  z-index:1;
+  background-image: url(../Img/pp.jpeg);
+  background-size:cover;
+  position: relative;
+}
+
+.bild8 {
+  z-index:1;
+  background-image: url(../Img/tf.jpeg);
+  background-size:cover;
+  position: relative;
+}
+
+#title{
+font-size: 40px;
+}
+
+#f1tyre{
+   width: 90px;
+   height: 90px;
+   z-index: 2;
+   background-color: transparent;
+
+}
+
+#rallytext{
+  font-size: 6px;
+  color: white;
+  z-index: 1;
+}
+
+#adrenaline{
+  font-size: 6px;
+  color: white;
+  z-index: 1;
+}
+
+#overtake{
+ height: 350px;
+ z-index: 1;
+}
+
+#f1fans{
+  width: 500px;
+  z-index: 1;
+}
+
+#fans{
+  font-size: 6px;
+  color: white;
+  z-index: 1;
+}
+
+#think{
+ height: 350px;
+ z-index: 1;
+ align-self: center;
+}
+
+#thinktext{
+  font-size: 6px;
+  color: white;
+  z-index: 1;
+  align-self: center;
+
+}
+a{
+ text-decoration: none;
+ color:white;
+}
+
+.h2{
+font-size: 38px;
+}
+
+@keyframes spin {
+     from {
+         transform:rotate(0deg);
+     }
+     to {
+         transform:rotate(360deg);
+     }
+}
+
+}
+.video{
+  width: 100%;
+}
+#huvudvideo{
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    z-index:1;
+}
+
+#f1tyre:hover{
+  animation-name: spin;
+  animation-duration: 1000ms;
+  animation-iteration-count: 8;
+  animation-timing-function: linear;
+
+}
+
+#rally{
+  width: 500px;
+  z-index: 1;
+}
+
+.content{
+  position: absolute;
+  bottom: 0;
+  left:0;
+  right:0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  padding: 20px;
+  color:white;
+  padding:0 10%;
+
+}
+.content-2{
+  position: absolute;
+  top: 0;
+  left:0;
+  right:0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  padding: 20px;
+  color:white;
+  padding:0 10%;
+
+}
+
+
+.dropbtn {
+  background-color: black;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 110px;
+  right: 0px;
+  background-color: rgba(0,0,0,0.9);
+  width: 250px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  font-size: 30px;
+  padding: 5px;
+}
+
+/* Container holding the image and the text */
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.container25 {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+/* Bottom left text */
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+/* Top left text */
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+.slideshow-container {
+  overflow: hidden;
+  position:absolute;
+  	height:100%;
+  	width:100%;
+}
+
+.slideshow-container img{
+  max-width:100%;
+  	width:100%;
+  	position:fixed;
+  	left:0;
+}
+
+
+.slide {
+
+  display: none;
+  justify-content: center;
+  align-items: End;
+}
+
+.slide img {
+
+  width: 100%;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+
+}
+
+
+
+/*Animation för fade effekten i bildspelet, med webkit implementation*/
+
+.text{
+ z-index: 5;
+ color:white;
+ background-color: rgba(0,0,0,0.6);
+ z-index: 3;
+ font-size: 40px;
+}
+
+nav{
+  width: 100%;
+  background: rgba(0, 0, 0, 0.9);
+  margin: 0px 0;
+  z-index:2;
+  top: 0;
+  left: 0;
+  position: fixed;
+  height: 100px;
+}
+
+
+ul{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  padding:0;
+  margin:0;
+  height:100%;
+  color:white;
+}
+
+li{
+  margin:auto;
+  font-size: 40px;
+
+}
+
+p{
+font-size: 25px;
+
+}
+
+
+
+
+/*Keyframes för animationen*/
+
+@-webkit-keyframes fade {
+
+  from {opacity: .4}
+
+  to {opacity: 1}
+
+}
+
+
+
+@keyframes fade {
+
+  from {opacity: .4}
+
+  to {opacity: 1}
+
+}
+.dropdown-content a:hover {background-color: grey;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: white;}
+
+
+@media screen and (max-width: 970px) {
+   li{
+     font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 735px) {
+   li{
+     visibility: hidden;
+  }
+
+  nav{
+   background-color: transparent;
+  }
+
+  .content{
+  background: rgba(0, 0, 0, 0.8);
+  }
+
+  .content-2{
+    background: rgba(0, 0, 0, 0.8);
+  }
+}
+
+@media only screen and (max-device-width: 735px) {
+   li{
+     visibility: hidden;
+  }
+
+  nav{
+   background-color: transparent;
+  }
+
+  .content{
+  background: rgba(0, 0, 0, 0.8);
+  }
+
+  .content-2{
+    background: rgba(0, 0, 0, 0.8);
+  }
+
+}
+
+@media only screen and (max-device-width: 600px) {
+   p{
+     font-size: 42px;
+  }
+  .dropdown-content a{
+    font-size: 50px;
+ }
+
+ .dropdown-content {
+   top: 250px;
+ }
+
+ #f1tyre{
+  height: 160px;
+  width: 160px;
+  margin-top: 60px;
+ }
+
+
+}
