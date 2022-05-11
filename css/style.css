@@ -413,3 +413,37 @@ font-size: 25px;
   }
 
 }
+
+@media only screen and (max-width: 1200px) {
+  #think {
+  width: 100%;
+  }
+
+  #thinktext{
+  width: 100%;
+  }
+  #rally {
+  width: 100%;
+  }
+
+  #rallytext{
+  width: 100%;
+  }
+
+
+  #overtake{
+  width: 100%;
+  }
+
+  #adrenaline{
+  width: 100%;
+  }
+
+  #f1fans{
+  width: 100%;
+  }
+
+  #fanstext{
+  width: 100%;
+
+  }
