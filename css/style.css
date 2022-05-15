@@ -73,8 +73,133 @@ height:100vh;
   position: relative;
 }
 
+.h2{
+  font-size: 38px;
+}
+
+.video{
+  width: 100%;
+}
+
+.content{
+  position: absolute;
+  bottom: 0;
+  left:0;
+  right:0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  padding: 20px;
+  color:white;
+  padding:0 10%;
+}
+
+.content-2{
+  position: absolute;
+  top: 0;
+  left:0;
+  right:0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  padding: 20px;
+  color:white;
+  padding:0 10%;
+}
+
+
+.dropbtn {
+  background-color: black;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 110px;
+  right: 1px;
+  background-color: rgba(0,0,0,0.9);
+  width: 250px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  font-size: 30px;
+  padding: 5px;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.container25 {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+.slideshow-container {
+  overflow: hidden;
+  position:absolute;
+  	height:100%;
+  	width:100%;
+}
+
+.slideshow-container img{
+  max-width:100%;
+  	width:100%;
+  	position:fixed;
+  	left:0;
+}
+
+
+.slide {
+  display: none;
+  justify-content: center;
+  align-items: End;
+}
+
+.slide img {
+  width: 100%;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.text{
+ z-index: 5;
+ color:white;
+ background-color: rgba(0,0,0,0.6);
+ z-index: 3;
+ font-size: 40px;
+}
+
 #title{
-font-size: 40px;
+  font-size: 40px;
 }
 
 #f1tyre{
@@ -82,7 +207,6 @@ font-size: 40px;
    height: 90px;
    z-index: 2;
    background-color: transparent;
-
 }
 
 #rallytext{
@@ -125,17 +249,9 @@ font-size: 40px;
   color: white;
   z-index: 1;
   align-self: center;
-
-}
-a{
- text-decoration: none;
- color:white;
 }
 
-.h2{
-font-size: 38px;
-}
-
+/*Detta gör att däcket snurrar när man håller musen på den.*/
 @keyframes spin {
      from {
          transform:rotate(0deg);
@@ -146,9 +262,7 @@ font-size: 38px;
 }
 
 }
-.video{
-  width: 100%;
-}
+
 #huvudvideo{
     right: 0;
     bottom: 0;
@@ -162,7 +276,6 @@ font-size: 38px;
   animation-duration: 1000ms;
   animation-iteration-count: 8;
   animation-timing-function: linear;
-
 }
 
 #rally{
@@ -170,132 +283,10 @@ font-size: 38px;
   z-index: 1;
 }
 
-.content{
-  position: absolute;
-  bottom: 0;
-  left:0;
-  right:0;
-  background: rgba(0, 0, 0, 0.5);
-  color: #f1f1f1;
-  padding: 20px;
-  color:white;
-  padding:0 10%;
 
-}
-.content-2{
-  position: absolute;
-  top: 0;
-  left:0;
-  right:0;
-  background: rgba(0, 0, 0, 0.5);
-  color: #f1f1f1;
-  padding: 20px;
-  color:white;
-  padding:0 10%;
-
-}
-
-
-.dropbtn {
-  background-color: black;
-  color: white;
-  padding: 16px;
-  font-size: 16px;
-  border: none;
-}
-
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  top: 110px;
-  right: 1px;
-  background-color: rgba(0,0,0,0.9);
-  width: 250px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-.dropdown-content a {
-  color: white;
-  text-decoration: none;
-  display: block;
-  font-size: 30px;
-  padding: 5px;
-}
-
-/* Container holding the image and the text */
-.container {
-  position: relative;
-  text-align: center;
-  color: white;
-}
-
-.container25 {
-  position: relative;
-  text-align: center;
-  color: white;
-}
-
-/* Bottom left text */
-.bottom-left {
-  position: absolute;
-  bottom: 8px;
-  left: 16px;
-}
-
-/* Top left text */
-.top-left {
-  position: absolute;
-  top: 8px;
-  left: 16px;
-}
-
-.slideshow-container {
-  overflow: hidden;
-  position:absolute;
-  	height:100%;
-  	width:100%;
-}
-
-.slideshow-container img{
-  max-width:100%;
-  	width:100%;
-  	position:fixed;
-  	left:0;
-}
-
-
-.slide {
-
-  display: none;
-  justify-content: center;
-  align-items: End;
-}
-
-.slide img {
-
-  width: 100%;
-  top: 0;
-  left: 0;
-  object-fit: cover;
-
-}
-
-
-
-/*Animation för fade effekten i bildspelet, med webkit implementation*/
-
-.text{
- z-index: 5;
+a{
+ text-decoration: none;
  color:white;
- background-color: rgba(0,0,0,0.6);
- z-index: 3;
- font-size: 40px;
 }
 
 nav{
@@ -331,41 +322,21 @@ font-size: 25px;
 
 }
 
-
-
-
-/*Keyframes för animationen*/
-
-@-webkit-keyframes fade {
-
-  from {opacity: .4}
-
-  to {opacity: 1}
-
-}
-
-
-
-@keyframes fade {
-
-  from {opacity: .4}
-
-  to {opacity: 1}
-
-}
 .dropdown-content a:hover {background-color: grey;}
 
 .dropdown:hover .dropdown-content {display: block;}
 
 .dropdown:hover .dropbtn {background-color: white;}
 
-
+/*Detta gör att texten i menyn blir mindre när sidan blir mindre.*/
 @media screen and (max-width: 970px) {
    li{
      font-size: 30px;
   }
 }
 
+/*Detta gör att den övre menyn försvinner och att dess bakgrund blir transparent.
+Den gör också att bakgrunden på texten i huvudsidan blir lite mörkare, vilket gör det lättare att läsa.*/
 @media screen and (max-width: 735px) {
    li{
      visibility: hidden;
@@ -384,11 +355,12 @@ font-size: 25px;
   }
 }
 
+/*samma som övre, men inte samma media query.*/
 @media only screen and (max-device-width: 735px) {
-   li{
+  li{
     display: none;
   }
-  .dropdown-content{
+ .dropdown-content{
     left: 1px;
     right: 0;
  }
@@ -407,13 +379,16 @@ font-size: 25px;
 
 }
 
+/*Detta gör texten på huvudsidan större när sidan blir mindre, vilket gör det lättare att läsa. */
 @media only screen and (max-device-width: 600px) {
-   p{
+  p{
      font-size: 20px;
   }
 
 }
 
+/*Detta gör att bilderna och den tillhörande texten i "Why" sidan blir 100% av sidan när den blir mindre.
+Detta gör att bilderna inte blir större än sidan.*/
 @media only screen and (max-width: 1200px) {
   #think {
   width: 100%;
@@ -422,6 +397,7 @@ font-size: 25px;
   #thinktext{
   width: 100%;
   }
+
   #rally {
   width: 100%;
   }
@@ -429,7 +405,6 @@ font-size: 25px;
   #rallytext{
   width: 100%;
   }
-
 
   #overtake{
   width: 100%;

@@ -1,6 +1,8 @@
 <!Doctype html>
 <html>
 
+<!--I huvudet finns länkar till css och grid, samt länkarna om fonten på sidan, eftersom att jag använde google fonts.
+Här finns också viewporten och koden för för hemsidans ikonen.-->
   <head>
     <meta charset="utf-8"/>
     <title>F1 Cars</title>
@@ -15,8 +17,9 @@
     </script>
   </head>
 
+  <!--Här finns koden för navbaren som inte är en dropdown.
+  Jag satt en en id här för att kunna länka till en viss del av sidan.-->
   <body class="body">
-
     <div class="container">
       <nav>
         <ul>
@@ -27,7 +30,8 @@
           <li><a href="https://www.24h-lemans.com/en" target="_blank">Lemans 24h</a></li>
           <div class="dropdown">
 
-
+            <!--Här finns koden för dropdownen. I dropdownen finns de externa länkarna som också finns i den övre navbaren.
+            På grund av att man inte ska behöva ändra något när sidan ändras och länkarna i den övre navbaren försvinner.-->
             <div class="dropdown">
               <img src="Img/intertyre.png" id="f1tyre" class="dropbtn">
               <div class="dropdown-content">
@@ -47,6 +51,7 @@
 
       </nav>
 
+<!--Här finns koden för alla dne 20 bilderna som finns i bildspelet.-->
   <div class="slideshow-container">
 
     <div class="slide">
@@ -132,9 +137,6 @@
     <div class="slide">
       <img src="Img/2002.jpeg" style="width:100%">
     </div>
-
-    <a class="prev" onclick="plusSlides(-1)"></a>
-    <a class="next" onclick="plusSlides(1)"></a>
 
   </div>
     <br>
