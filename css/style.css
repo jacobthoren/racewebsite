@@ -19,56 +19,56 @@ height:100vh;
 
 .bild1{
   z-index:1;
-  background-image: url(../Img/gammalbild2.jpeg);
+  background-image: url(../Img/gammalbild2.webp);
   background-size:cover;
   position: relative;
 }
 
 .bild2 {
   z-index:1;
-  background-image: url(../Img/single_seater.jpeg);
+  background-image: url(../Img/single_seater.webp);
   background-size:cover;
   position: relative;
 }
 
 .bild3 {
   z-index:1;
-  background-image: url(../Img/oval_racing.jpeg);
+  background-image: url(../Img/oval_racing.webp);
   background-size:cover;
   position: relative;
 }
 
 .bild4 {
   z-index:1;
-  background-image: url(../Img/dakar.jpeg);
+  background-image: url(../Img/dakar.webp);
   background-size:cover;
   position: relative;
 }
 
 .bild5 {
   z-index:1;
-  background-image: url(../Img/Lemans.jpeg);
+  background-image: url(../Img/Lemans.webp);
   background-size:cover;
   position: relative;
 }
 
 .bild6 {
   z-index:1;
-  background-image: url(../Img/driftcar.jpeg);
+  background-image: url(../Img/driftcar.webp);
   background-size:cover;
   position: relative;
 }
 
 .bild7 {
   z-index:1;
-  background-image: url(../Img/pp.jpeg);
+  background-image: url(../Img/pp.webp);
   background-size:cover;
   position: relative;
 }
 
 .bild8 {
   z-index:1;
-  background-image: url(../Img/tf.jpeg);
+  background-image: url(../Img/tf.webp);
   background-size:cover;
   position: relative;
 }
